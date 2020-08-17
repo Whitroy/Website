@@ -59,7 +59,7 @@
 											<tr>
 												<td>
 													<span class="actions">
-														<a href="#" class="button primary icon solid fa-download">Apk file</a>
+														<a class="button primary icon solid fa-download" download="files/Cross Color.apk">Apk file</a>
 													</span>
 												</td>
 												<td>
@@ -76,65 +76,65 @@
 											<tr>
 												<td colspan="3">
 													<h3 class="major">Feedback :-</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="Name" id="Nname" value="" placeholder="XYZ ABC" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="Email" id="Email" value="" placeholder="XYZ@gmail.com" />
-											</div>
-											<div class="field">
-												<label for="category">Game</label>
-												<select name="category" id="category">
-													<option value="1">Cross Color</option>
-												</select>
-											</div>
-											<div class="field">
-												<strong>Rate us :-</strong> 
-											</div>
-											<div class="field fifth">
-												<input type="radio" id="1" name="Rating" checked>
-												<label for="1">1 Star</label>
-											</div>
-											<div class="field fifth">
-												<input type="radio" id="2" name="Rating">
-												<label for="2">2 Star</label>
-											</div>
-											<div class="field fifth">
-												<input type="radio" id="3" name="Rating">
-												<label for="3">3 Star</label>
-											</div>
-											<div class="field fifth">
-												<input type="radio" id="4" name="Rating">
-												<label for="4">4 Star</label>
-											</div>
-											<div class="field fifth">
-												<input type="radio" id="5" name="Rating">
-												<label for="5">5 star</label>
-											</div>
-											<div class="field">
-												<input type="checkbox" id="human" name="human" unchecked>
-												<label for="human">I'm not a robot</label>
-											</div>
-											<div class="field">
-												<label for="feedback">feedback</label>
-												<textarea name="feedback" id="feedback" placeholder="Enter your feedback" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="submit" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</article>
+														<form method="post" action="files/feedback.php">
+															<div class="fields">
+																<div class="field half">
+																	<label for="Name">Name</label>
+																	<input type="text" name="Name" id="Name" value="" placeholder="XYZ ABC" required />
+																</div>
+																<div class="field half">
+																	<label for="Email">Email</label>
+																	<input type="email" name="Email" id="Email" value="" placeholder="XYZ@gmail.com" required/>
+																</div>
+																<div class="field">
+																	<label for="category">Game</label>
+																	<select name="category" id="category">
+																		<option value="1">Cross Color</option>
+																	</select>
+																</div>
+																<div class="field">
+																	<strong>Rate us :-</strong> 
+																</div>
+																<div class="field fifth">
+																	<input type="radio" id="1" value='1' name="Rating">
+																	<label for="1">1 Star</label>
+																</div>
+																<div class="field fifth">
+																	<input type="radio" id="2" value='2' name="Rating">
+																	<label for="2">2 Star</label>
+																</div>
+																<div class="field fifth">
+																	<input type="radio" id="3" value='3' name="Rating" checked>
+																	<label for="3">3 Star</label>
+																</div>
+																<div class="field fifth">
+																	<input type="radio" id="4" value='4' name="Rating">
+																	<label for="4">4 Star</label>
+																</div>
+																<div class="field fifth">
+																	<input type="radio" id="5" value='5' name="Rating">
+																	<label for="5">5 star</label>
+																</div>
+																<div class="field">
+																	<input type="checkbox" id="human" name="human" unchecked required>
+																	<label for="human">I'm not a robot</label>
+																</div>
+																<div class="field">
+																	<label for="feedback">feedback</label>
+																	<textarea name="feedback" id="feedback" placeholder="Enter your feedback" rows="6" required></textarea>
+																</div>
+															</div>
+															<ul class="actions">
+																<li><input type="submit" value="Submit" class="primary" /></li>
+																<li><input type="reset" value="Reset" /></li>
+															</ul>
+														</form>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</article>
 
 						<!-- Elements -->
 							<article id="elements">
