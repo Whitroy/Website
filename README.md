@@ -1,2 +1,3 @@
 # Whitroy Website 
-# We At wrg create stunning games.
+# We WRG create stunning games.
+# New Games to be published soon
